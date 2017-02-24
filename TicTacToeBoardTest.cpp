@@ -18,3 +18,10 @@ TEST(TicTacToeBoardTest, sanityCheck)
 {
 	ASSERT_TRUE(true);
 }
+
+TEST(TicTacToeBoardTest, CorrectCoordinates)
+{
+	TicTacToeBoard emptyBoard;
+	Piece actual = emptyBoard.placePiece(3,3);
+	ASSERT_FALSE(actual);
+}
