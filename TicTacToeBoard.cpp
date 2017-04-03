@@ -5,6 +5,7 @@
 **/
 
 //Switches turn member variable to represent whether it's X's or O's turn
+//complexity = 3
 void TicTacToeBoard::toggleTurn()
 {
 	if(turn == O)
